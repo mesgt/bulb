@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     font-family: sans-serif;
-    color: blue;
+    /* color: blue; */
 }
 
 .main {
@@ -70,7 +70,17 @@ nav {
 }
 
 .feature {
-    position:absolute;
+    position: absolute;
+    display: flex;
+    color: white;
+}
+
+.feature div {
+    margin-left: 30px;
+}
+
+.feature div .p {
+    margin-top: 8px;
 }
 
 .one {
@@ -91,4 +101,36 @@ nav {
 .four {
     bottom: 150px;
     right: 350px;
+}
+
+.mobile {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.controls {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.controls h3 {
+    margin: 15px 0;
+    color: #fff;
+}
+
+#upBtn {
+    width: 15px;
+    cursor: pointer;
+}
+
+#downBtn {
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
 }
