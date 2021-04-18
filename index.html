@@ -70,14 +70,14 @@
         var rotateValue = circle.style.transform;
         var rotateSum;
 
-        upBtn.onClick = function() 
+        upBtn.onclick = function() 
         {
             rotateSum = rotateValue + "rotate(-90deg)";
             circle.style.transform = rotateSum;
             rotateValue = rotateSum;
         }
 
-        downBtn.onClick = function() 
+        downBtn.onclick = function() 
         {
             rotateSum = rotateValue + "rotate(90deg)";
             circle.style.transform = rotateSum;
@@ -85,6 +85,7 @@
         }
 
     </script>
+
 
 </body>
 </html>
