@@ -42,7 +42,7 @@ nav {
 }
 
 .nav-links ul li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ nav {
 .feature {
     position: absolute;
     display: flex;
-    color: white;
+    color: black;
 }
 
 .feature div {
@@ -108,7 +108,7 @@ nav {
 }
 
 .mobile {
-    width: 300px;
+    width: 400px;
     position: absolute;
     top: 50%;
     left: 35%;
@@ -126,7 +126,7 @@ nav {
 
 .controls h3 {
     margin: 15px 0;
-    color: #fff;
+    color: black;
 }
 
 #upBtn {
@@ -138,4 +138,16 @@ nav {
     width: 15px;
     cursor: pointer;
     transform: rotate(180deg);
+}
+
+.overlay {
+    width: 0;
+    height: 0;
+    border-top: 500px solid black;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid black;
+    border-left: 500px solid black;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
